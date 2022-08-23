@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(-45deg,blue, purple);
+}
+
+#clock{
+    font-size: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1200px;
+    height: 400px;
+    background-color: #000;
+
+    font-family: "Barlow";
+    color: white;
+}
+
+.box{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.tempo{
+    color: grey;
+    align-self: flex-end;
+    position: absolute;
+    font-size: 1rem;
+    font-weight: 300;
+    
+}
+
+.two_points{
+    position: absolute;
+    right: 0px;
+}
