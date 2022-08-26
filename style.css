@@ -20,6 +20,7 @@ body{
     width: 1200px;
     height: 400px;
     background-color: #000;
+    box-shadow: 0 -15px 15px rgba(10, 10, 50, 0.5), inset 0 -15px 15px rgba(10, 10, 50, 0.3), 0 15px 15px rgba(10, 10, 50, 0.5), inset 0 15px 15px rgba(10, 10, 50, 0.3);;
 
     font-family: "Barlow";
     color: white;
